@@ -1,0 +1,25 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#randomButton {
+  position: absolute;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: dodgerblue;
+  color: whitesmoke;
+  border-radius: 10px;
+}
